@@ -1,0 +1,15 @@
+<!-- res/menu/nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <!-- Menu Item 1: Chat -->
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat" />
+
+        <!-- Menu Item 2: Settings -->
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+    </group>
+</menu>
