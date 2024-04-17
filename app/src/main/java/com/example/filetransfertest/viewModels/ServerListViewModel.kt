@@ -18,7 +18,14 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
-
+/**
+ *  Conceptual: Handler for the list of servers
+ *  Job:
+ *      Hold Server list in a stateflow
+ *      Hold Selected Server from list
+ *      Bind to SocketServerService to retrieve server states
+ *      Manager for SocketServerService
+**/
 class ServerListViewModel(application: Application) : AndroidViewModel(application) {
 
     // Server Service Related Variables
